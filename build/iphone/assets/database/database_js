@@ -1,0 +1,1 @@
+exports.install=function(database_name){Ti.Database.install('/database/MUMASDB.sqlite','metro');Ti.Database.install('/database/Favorites.sqlite','favs');};
